@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "AI COLD MAIL GENERATOR",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilanjan-sikdar/ai-cold-mail-generator.git"
+  },
+  "keywords": [
+    "AI",
+    "PROJECT"
+  ],
+  "author": "Nilanjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilanjan-sikdar/ai-cold-mail-generator/issues"
+  },
+  "homepage": "https://github.com/nilanjan-sikdar/ai-cold-mail-generator#readme"
+}
