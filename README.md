@@ -1,0 +1,1 @@
+# ai-cold-mail-generator
