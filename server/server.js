@@ -44,7 +44,7 @@ const clientBuildPath = path.join(__dirnamePath, '..', 'client', 'dist');
 app.use(express.static(clientBuildPath));
 
 // For any route not starting with /api, send index.html
-app.get('*', (req, res) => {
+app.get('{*path}', (req, res) => {
     if (!req.path.startsWith('/api')) {
         res.sendFile(path.join(clientBuildPath, 'index.html'));
     }
